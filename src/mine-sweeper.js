@@ -38,7 +38,7 @@ function sum_cell(matrix,col,row){
 let sum = 0;
 directions.forEach(xy=>{
 sum+=cell(matrix,col+(1*xy[0]),row+(1*xy[1]));
-console.log(sum);
+
  
 });
 return sum;
