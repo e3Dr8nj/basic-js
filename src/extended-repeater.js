@@ -16,7 +16,7 @@ const { NotImplementedError } = require('../extensions/index.js');
  *
  */
 function repeater(str, options ) {
-  console.log(arguments);
+ 
   str= str !==undefined? String(str):"";
   options.repeatTimes = options.repeatTimes||1;
   options.additionRepeatTimes = options.additionRepeatTimes || 1;
